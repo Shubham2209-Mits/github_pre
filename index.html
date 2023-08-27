@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HR Analytics Dashboard - POWER BI</title>
+  <style>
+    body {
+      background-color: #49FCD4; /* Smoke Background Color */
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    #container {
+      background-color: #49FCD4; /* Container Title Background Color */
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 10px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: white;
+      font-size: 32px;
+      margin: 0;
+      padding: 10px;
+    }
+
+    .content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 400px;
+      display: block;
+      margin: 20px auto;
+      border-radius: 5px;
+    }
+
+    .content p {
+      margin: 10px 0;
+    }
+
+    .content li {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h2>POWER BI</h2>
+    </header>
+    <section id="powerbi">
+      <div class="content">
+        <p><strong>HR ANALYTICS DASHBOARD</strong></p>
+        <p><strong>About this project:</strong></p>
+        <ul>
+          <li>
+            I have created an HR Analytics Dashboard that provides insights about attrition in the company. The dashboard includes several KPIs such as Count of Employees, Total Attrition, Attrition Rate, Average Salary, and visualizations like Donut chart for Attrition by Education, Column chart for Attrition by Age, and Area chart for Attrition by Years at the Company.
+          </li>
+        </ul>
+        <p><strong>Approach:</strong></p>
+        <ul>
+          <li>Firstly, I extracted the Excel file using power query for data cleaning, and then loaded the data in Power BI Desktop. In Power Pivot, I performed data modeling using DAX functions, and finally, in Power View section, I created visualizations.</li>
+        </ul>
+        <p><strong>Insights from the dashboard:</strong></p>
+        <ul>
+          <li>There are 1470 employees in the company.</li>
+          <li>237 employees left the company.</li>
+          <li>Attrition rate is 16.12%.</li>
+          <li>The Average Salary of employees who left the company was 6.5k.</li>
+          <li>The Average Age was 37.</li>
+        </ul>
+        <div class="gallery">
+          <a href="images/hr/hr1.jpg"><img src="images/hr/hr1.jpg" alt="" /></a>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
